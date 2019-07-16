@@ -9,7 +9,7 @@
       </div> 
     </template>
     <template v-if="isLogin">
-      <h1><router-link to="/">Let's share</router-link></h1>
+      <h1><router-link to="/">Vision视界</router-link></h1>
       <router-link to="/create"><i class="edit el-icon-plus"></i></router-link>
       <div class="user">
         <img class="avatar" :src="user.avatar" :alt="user.username" :title="user.username">
@@ -23,11 +23,11 @@
 </template>
 
 <script>
-  
-  import auth from '@/api/auth'
-  window.auth = auth
 
-  import { mapGetters, mapActions } from 'vuex'
+  import auth from '@/api/auth'
+  import {mapActions, mapGetters} from 'vuex'
+
+  window.auth = auth;
 
   export default {
     data() {
