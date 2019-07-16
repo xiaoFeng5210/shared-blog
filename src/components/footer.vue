@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>© 欢迎来到张庆风的共享博客</p>
+    <p>© 张庆风为您提供最好的共享服务</p>
   </footer>
 </template>
 
