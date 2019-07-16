@@ -1,0 +1,17 @@
+<template>
+  <footer>
+    <p>© 欢迎来到张庆风的共享博客</p>
+  </footer>
+</template>
+
+<style scoped>
+footer {
+  align-self: end;
+  background-color: #d7d7d7;
+  color: #666;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
